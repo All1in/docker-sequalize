@@ -1,0 +1,44 @@
+{
+  "name": "tz",
+  "version": "1.0.0",
+  "description": "tz using docker-sequalize",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "format:check": "prettier --check .",
+    "format:write": "prettier --write .",
+    "lint:check": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/All1in/docker-sequalize.git"
+  },
+  "keywords": [
+    "docker",
+    "sequalize",
+    "node"
+  ],
+  "author": "Ya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/All1in/docker-sequalize/issues"
+  },
+  "homepage": "https://github.com/All1in/docker-sequalize#readme",
+  "devDependencies": {
+    "eslint": "^8.34.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "sequelize": "^6.28.0"
+  }
+}
